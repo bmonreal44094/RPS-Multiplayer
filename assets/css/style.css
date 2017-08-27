@@ -1,0 +1,42 @@
+.player {
+	height: 250px;
+	width: 250px;
+	margin: 66px;
+	border: 1px;
+	border-color: white;
+	border-style: solid;
+}
+
+.header {
+	text-align: center;
+	height: 150px;
+	padding: 20px;
+	margin-top: 15px;
+}
+
+#chatDisplay {
+	height: 200px;
+	color: white;
+	border: 1px;
+	border-color: white;
+	border-style: solid;
+}
+
+#chatEntry {
+	float: left;
+	width: 690px;
+}
+
+#send {
+	float: left;
+}
+
+#nameEntry {
+	margin-left: 35%;
+	width: 25%;
+	float: left;
+}
+
+#greeting {
+	text-align: center;
+}

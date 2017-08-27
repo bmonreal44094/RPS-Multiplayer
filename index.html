@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors Game</title>
+
+	<!-- Bootstrap 3.3.6 -->
+	<link href="assets/css/bootstrap.min3.3.6.css" rel="stylesheet">
+    
+    <!--Bootswatch Cyborg-->
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+
+    <!--My CSS Override of Bootstrap and Bootswatch-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="container">
+	<div class="header row" >
+		<h1>Rock Paper Scissors</h1>
+	</div>
+	<div class="row">
+		<div class="col-sm-12" id="greeting"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12" id="turn"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 player" id="player1"></div>
+		<div class="col-sm-4 panel-body player" id="info"></div>
+		<div class="col-sm-4 player" id="player2"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8" id="chat">
+			<div class="row" id="chatDisplay"></div>
+			<form>
+				<div class="form-group">
+				    <input type="text" class="form-control" id="chatEntry" placeholder="Trash talk it up">
+				     <button type="button" id="send" class="btn btn-primary">Send</button>
+				</div>
+			</form>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+</div>
+
+<!-- jQuery JS -->
+<script src="https://code.jquery.com/jquery.js"></script>
+
+<!-- Firebase JS -->
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+
+<!-- Rock Paper Scissors JS -->
+<script type="text/javascript" src="assets/scripts/rpsgame.js"></script>
+
+</body>
+</html>

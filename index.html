@@ -19,10 +19,17 @@
 		<h1>Rock Paper Scissors</h1>
 	</div>
 	<div class="row">
-		<div class="col-sm-12" id="greeting"></div>
+		<div class="col-sm-12" id="greeting">
+			<p id='nameDirections'>Enter your name to start the game</p>
+		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-12" id="turn"></div>
+		<div class="col-sm-12" id="turn">
+			<div class='form-group' id='nameForm'>
+				<input type='text' class='form-control' id='name-entry' placeholder='Your name here'>
+				<button type='form' id='add-user' class='btn btn-primary'>OK</button>
+			</div>
+		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-4 player" id="player1"></div>
@@ -33,10 +40,10 @@
 		<div class="col-sm-2"></div>
 		<div class="col-sm-8" id="chat">
 			<div class="row" id="chatDisplay"></div>
-			<form>
+			<form id="chatForm">
 				<div class="form-group">
 				    <input type="text" class="form-control" id="chatEntry" placeholder="Trash talk it up">
-				     <button type="button" id="send" class="btn btn-primary">Send</button>
+				     <button type="submit" id="send" class="btn btn-primary">Send</button>
 				</div>
 			</form>
 		</div>

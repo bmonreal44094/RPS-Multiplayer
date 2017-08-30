@@ -31,7 +31,7 @@
 	float: left;
 }
 
-#nameEntry {
+#name-entry {
 	margin-left: 35%;
 	width: 25%;
 	float: left;
@@ -39,4 +39,26 @@
 
 #greeting {
 	text-align: center;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#turn {
+	text-align: center;
+	color: white;
+}
+
+#add-user {
+	float: left;
+}
+
+.rps {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.options {
+	font-size: 24px;
 }
